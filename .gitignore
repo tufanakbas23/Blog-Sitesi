@@ -1,0 +1,68 @@
+# ========================
+# Laravel .gitignore
+# ========================
+
+# Environment & Secrets
+.env
+.env.backup
+.env.production
+.env.local
+
+# Dependencies
+/vendor
+/node_modules
+
+# Laravel generated files
+/public/hot
+/public/storage
+/storage/*.key
+/bootstrap/cache/*.php
+
+# Compiled assets
+/public/mix-manifest.json
+
+# Log files
+/storage/logs/*.log
+npm-debug.log
+yarn-error.log
+
+# Cache & Session files
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*.php
+
+# Testing
+.phpunit.result.cache
+phpunit.xml
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Homestead
+Homestead.json
+Homestead.yaml
+
+# Debug files
+/storage/debugbar/
+
+# Compiled class file
+*.class
+
+# Package files
+*.lock
+!composer.lock
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
