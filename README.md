@@ -223,8 +223,6 @@ Yönetim paneline `/admin/giris` adresinden erişebilirsiniz. İlk kullanım iç
 > ![Admin Panel](screenshots/admin-panel.png)
 > ```
 
----
 
-## Lisans
 
-Bu proje MIT lisansı ile lisanslanmıştır.
+
